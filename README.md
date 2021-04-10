@@ -3,11 +3,13 @@ ROS_Test_Bed
 
 
 # Start core OS(Run always)
-===========================
+
+'''
 roscore
+'''
 
 # Create a project directory and build
-=======================================
+'''
  cd ros_test_bed/
 ~/Desktop/ros_test_bed$ mkdir catkin_ws
 ~/Desktop/ros_test_bed$ ls
@@ -17,7 +19,7 @@ catkin_ws
 ~/Desktop/ros_test_bed/catkin_ws$ mkdir src
 ~/Desktop/ros_test_bed/catkin_ws$ ls
 src
-
+'''
 ### Build system
 ==================
 ~/Desktop/ros_test_bed/catkin_ws$ catkin_make
